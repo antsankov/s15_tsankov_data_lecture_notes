@@ -18,4 +18,13 @@
 * Tools: D3, Tableau, R
 * Collection -> Cleanup -> Storage -> Analysis -> Query/Vis
 
+# Lecture 2 
+
+##RESTful 
+
+* Certain predefined commands ```get``` -read , ```post``` -create,```delete```-remove,```put``` -modify to interact with service.
+* Page might load hundereds of different elements for every page. 
+* W3C defines current spec for HTTP. 
+* RE -> Representation/Resource : Ask for a resource, and have it given to you in a representation (HTML, XML, JSON) 
+* S -> State
 
