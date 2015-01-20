@@ -28,3 +28,16 @@
 * RE -> Representation/Resource : Ask for a resource, and have it given to you in a representation (HTML, XML, JSON) 
 * S -> State
 
+# Lecture 3 
+
+## RESTful cont. 
+
+* REST is better than SOAP most of the time. 
+* To prevent a torrent of delete requests, we can use authentication 
+ * Specifically OAUTH. 
+*Types of Errors: 
+ * 404 - nothing @ url.
+ * 500 - the server choked. 
+* Node is a wrapper around V8 chrome engine. 
+
+
