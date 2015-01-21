@@ -40,4 +40,9 @@
  * 500 - the server choked. 
 * Node is a wrapper around V8 chrome engine. 
 
+## Testing
+
+* Use rspec to test if the api works. 
+* Test driven design. 
+
 
