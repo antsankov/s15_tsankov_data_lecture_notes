@@ -49,4 +49,13 @@
 
 * IMPORTANT LESSON: If you put computer to sleep with uncommited changes, you lose those changes... :(
 
+# Lecture 5 
+
+## Node
+
+* Built on toop of Chrome V8. 
+* Most code is packaged in a module. 
+* Use anonymous functions as input for other functions. 
+* Event loops are predfeined for you. 
+* 
 
