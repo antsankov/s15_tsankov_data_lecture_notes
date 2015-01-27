@@ -45,4 +45,8 @@
 * Use rspec to test if the api works. 
 * Test driven design. 
 
+# Lecture 4 
+
+* IMPORTANT LESSON: If you put computer to sleep with uncommited changes, you lose those changes... :(
+
 
