@@ -57,5 +57,22 @@
 * Most code is packaged in a module. 
 * Use anonymous functions as input for other functions. 
 * Event loops are predfeined for you. 
-* 
+
+# Lecture 6 
+
+## Angular.js 
+
+* Built on top of JS 
+
+### Core concepts 
+* Data binding - value of an HTML tag can be associated with a modle object. Change model based on HTML, change HTML based on Model 
+* Controller - Are assocated with a portion of your HTML and define all state and methods that can be accessed with that section of the page. You can modularize your web app and decompose data into small chunks. 
+* Servcies - controllers are used to manage some portion of a page while it is being displated. 
+* If you need to maintain state between invocations of the controller you can create a service. Services exsit through life of application. 
+* Directives are ubiquitous in Angular. They allow Angular to integrate into HTML in a natural way. 
+* ALL OF THE TEMPLATING/CONTROLLER/ROUTING logic is on the client end. 
+* Embeddable - can control as much or as little of the a web page as you specify. 
+* Dependency Injection: I need an HTTP object. At run time it will create it when you need it. 
+* Create aplication with a module. A module is a package of controllers. Ex: ```angular.module(['contactsApp',[])```
+* Once you createa module you can gain a handle to call it by angular.module with no dependenc9ies. 
 
