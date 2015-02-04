@@ -74,5 +74,6 @@
 * Embeddable - can control as much or as little of the a web page as you specify. 
 * Dependency Injection: I need an HTTP object. At run time it will create it when you need it. 
 * Create aplication with a module. A module is a package of controllers. Ex: ```angular.module(['contactsApp',[])```
-* Once you createa module you can gain a handle to call it by angular.module with no dependenc9ies. 
+* Once you createa module you can gain a handle to call it by angular.module with no dependencies. 
+* ```var self = this; ``` annything that is self is exported to view. 
 
