@@ -76,4 +76,12 @@
 * Create aplication with a module. A module is a package of controllers. Ex: ```angular.module(['contactsApp',[])```
 * Once you createa module you can gain a handle to call it by angular.module with no dependencies. 
 * ```var self = this; ``` annything that is self is exported to view. 
+* 
+
+# Lecture 2/10/15
+
+## Require.js
+
+* Allows us to manage loading of different requirments for our angular module. 
+* 
 
