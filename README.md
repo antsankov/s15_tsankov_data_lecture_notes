@@ -147,4 +147,6 @@
 * Each DB is then used by a parituclar applicatuion to get its work done. 
 * Examples: MongoDB, CouchDB, Solr/Lucen. 
 
-## Graph Sto
+## Why NoSQL
+* THere is no schema. 
+* You can store anything you want in one of these databses. 
