@@ -84,10 +84,29 @@
 
 * Allows us to manage loading of different requirments for our angular module. 
 
-# Big Data 
+# Big Data/ NoSQL  
 
 ## Analytics use case 
 * You can add workers to speed up processing. 
 * You still need to add more DBs to support all of the nwe worker outputs. 
  * Partition your database across shards. Partition your data across these shards. 
+ * You have to shut system off when you are resharding. 
 
+* Even though you have sharded network, if one of the ndoes goes down then the entire system goes down as well. 
+
+## Strategies 
+
+* Make more complex replicators. 
+* If everything fails immediately, it's good, we can fix it. If it's writing bad data, it might be difficuly to track down whats wrong. 
+* Scaling application adds siginificantly more complexity. 
+* 
+
+## NoSQL to the rescue
+* Horizontally scalable. 
+* Manage sharding for you. 
+
+## Types of NoSQL Databases
+* Key-value 
+* Graphs 
+* Columnar 
+* Documents
