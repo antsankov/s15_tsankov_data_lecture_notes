@@ -110,3 +110,41 @@
 * Graphs 
 * Columnar 
 * Documents
+
+## Key-Value 
+* When presented with a key it returs an arbitrarily large set of data, i.e. the value. 
+* Stored like a Hash table 
+* No query language, they act like a hash table. 
+* Values are untyped, you can store any type of data in these databases. 
+* Benefits: Simplicity 
+* Examples: Amazo SimbpleDB, Redis (keeps everything in memory,used in cache), Voldemort, Riak.
+
+## Graph Stores 
+* Desgined to store graph structures rather than row column structures. 
+* Difficult to shard. 
+* This is NoSQL because it doesn't require a schema. 
+* Exampels: Neo4J, Titan, Infinite Graph 
+
+## Columnar Stores: 
+
+* Able to scale to enormous amounts of data. 
+* Able to achieve very fast writes. 
+* also mainatins very fast read performance. 
+* Basic Data Model: 
+ * Column family, think of tis as the table of related data. 
+ * Columns families consist of rows that have unique row keys. 
+ * Rows consist of columns.
+ * Columns consits of a key and a value. 
+ * The value might be a json itself that in turn has a json map itself. 
+* Hash tables all the way down. 
+
+## DOcument Stores
+* Like a key-value store but with more structure. 
+* Insert documents. 
+* Each document get indexed in a variety of ways, 
+* Documents can be found via queries on any attribute. 
+* Docuemnets can be grouped into collections, collections -> databases. 
+* Each DB is then used by a parituclar applicatuion to get its work done. 
+* Examples: MongoDB, CouchDB, Solr/Lucen. 
+
+## Graph Sto
