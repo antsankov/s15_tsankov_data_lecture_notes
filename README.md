@@ -83,5 +83,11 @@
 ## Require.js
 
 * Allows us to manage loading of different requirments for our angular module. 
-* 
+
+# Big Data 
+
+## Analytics use case 
+* You can add workers to speed up processing. 
+* You still need to add more DBs to support all of the nwe worker outputs. 
+ * Partition your database across shards. Partition your data across these shards. 
 
