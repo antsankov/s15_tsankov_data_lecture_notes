@@ -150,3 +150,29 @@
 ## Why NoSQL
 * THere is no schema. 
 * You can store anything you want in one of these databses. 
+* 
+
+# Couch DB 
+
+## Document Databse 
+* Document NoSQL Database
+* built in Erland to support massic concurrency. 
+* CouchDB's desgin embraces the web (RESTful API, high avaliability). 
+
+## Document Model: 
+* Self contained data 
+* Each document contains everything that might be needed by an application that makes use of it. No foreign keys. Kind of like MongoDB 
+* No schema is enforced. 
+* Attributes can contian embedded documents. 
+
+## CAP Theorem
+Issues you have to confront when you have distributed servers: 
+* Consistency: All clients see the same data. 
+* Availability: All clients are able to read or write the data store when they want 
+* Partition tolearance: A database can be split across multiple servers. 
+YOU CAN ONLY PICK 2. 
+
+## CAP Strategies: 
+1. Consistency and Avaliblity: Relational DB only chooses Consistenct and availability. Low partitioon toleance. 
+* Avaliablilty and Partition Tolearnce: Provides the ability to scale horizontally and always be available for requests but can only guarantee eventual consitency. CouchDB does this. 
+* Consistency and Partition Tolearnce: Able to provide consistency at the price of not being available for reqeuests. 
