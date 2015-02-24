@@ -174,5 +174,10 @@ YOU CAN ONLY PICK 2.
 
 ## CAP Strategies: 
 1. Consistency and Avaliblity: Relational DB only chooses Consistenct and availability. Low partitioon toleance. 
-* Avaliablilty and Partition Tolearnce: Provides the ability to scale horizontally and always be available for requests but can only guarantee eventual consitency. CouchDB does this. 
-* Consistency and Partition Tolearnce: Able to provide consistency at the price of not being available for reqeuests. 
+2. Avaliablilty and Partition Tolearnce: Provides the ability to scale horizontally and always be available for requests but can only guarantee eventual consitency. CouchDB does this. NoSQL optimizes for this. 
+3. Consistency and Partition Tolearnce: Able to provide consistency at the price of not being available for reqeuests. 
+
+## CouchDB 
+* Uses B-tree that is map reduced. 
+* Validaiton is done in JS. 
+* Merge conflicts can occur, if it can't, it defers to the script. 
