@@ -181,3 +181,8 @@ YOU CAN ONLY PICK 2.
 * Uses B-tree that is map reduced. 
 * Validaiton is done in JS. 
 * Merge conflicts can occur, if it can't, it defers to the script. 
+
+# MongoDB 
+* Stores everything as documents
+* Good for a read heavy environment 
+
