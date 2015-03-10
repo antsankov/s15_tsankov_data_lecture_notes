@@ -185,4 +185,13 @@ YOU CAN ONLY PICK 2.
 # MongoDB 
 * Stores everything as documents
 * Good for a read heavy environment 
+* Index cardinality: number of possible values for an indexed field. 
+ * You only want indices on high cardinality field. 
+* Compound indices are hard, but they are necessary. 
+* We can create a compund index that looks like this: ``` tweets,ensureIndex({'user.created_at':1, })```
+* ```.explain("executionStats") ```
+* Use $text to index text strings. 
+* You cna use $geo for queries. 
+* geojson.io to create polygons. 
+ * First coordinate in your polygon is last point in polygon.
 
