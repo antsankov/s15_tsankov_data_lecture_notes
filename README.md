@@ -195,3 +195,15 @@ YOU CAN ONLY PICK 2.
 * geojson.io to create polygons. 
  * First coordinate in your polygon is last point in polygon.
 
+# Redis: 
+- Really fast way to search Data. 
+- With list, add it to head or tail in cosntant time. 
+- Use sorted sets when accessing the middle. 
+- Blocking operations allow server to notfy clients when they need the data. 
+- You can cluster. 
+- Runs with LUA scripting. 
+- Not a database replacement. 
+
+# Apache Kafka 
+- Distributedm high throuhgput, distributed, fault tolerant, messaging system. 
+- Kafka splits up data, and is dsitrbutred by ZookKeeper. 
