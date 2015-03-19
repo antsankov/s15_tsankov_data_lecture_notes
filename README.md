@@ -207,3 +207,7 @@ YOU CAN ONLY PICK 2.
 # Apache Kafka 
 - Distributedm high throuhgput, distributed, fault tolerant, messaging system. 
 - Kafka splits up data, and is dsitrbutred by ZookKeeper. 
+
+# Memcahe
+* Why use it instead of Redis? Easier to learn, more stable and more portable. 
+*  Best in situations where the # of requests is high and the cost of generating data 
