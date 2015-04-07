@@ -211,3 +211,10 @@ YOU CAN ONLY PICK 2.
 # Memcahe
 * Why use it instead of Redis? Easier to learn, more stable and more portable. 
 *  Best in situations where the # of requests is high and the cost of generating data 
+
+#Javascript 
+* HOisting, javacript compiled first 
+* Closure means we can return functions that have access to different variables. 
+* Use scopes to hid data adnd export an object
+* No classses, uses prototype inheritence. 
+* ```this``` is not bound at compile time. 
