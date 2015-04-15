@@ -218,3 +218,7 @@ YOU CAN ONLY PICK 2.
 * Use scopes to hid data adnd export an object
 * No classses, uses prototype inheritence. 
 * ```this``` is not bound at compile time. 
+
+# React 
+* Maintains a virtual DOM  
+* 
