@@ -221,4 +221,14 @@ YOU CAN ONLY PICK 2.
 
 # React 
 * Maintains a virtual DOM  
+* Scales beyond normal 
+
+# Google Web Services
+* Allows for scalability
+* Also has elastic storage. 
+* Big Query can process Big Data with sql like queries 
+
+#Docker 
+* Deploy applications into containers. 
+* Contianers share OS and where apporpiate bins/libraries. 
 * 
